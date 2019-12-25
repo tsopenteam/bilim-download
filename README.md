@@ -1,10 +1,10 @@
 # bilim-download
 
-### Nedir
+### Nedir?
 
-Teknoseyir teknoloji ve bilim notları podcastlerini toplu bir şekilde indirmek için kullanabileceğiniz python console uygulamasıdır.
+[TeknoSeyir Teknoloji ve Bilim Notları](https://teknoseyir.com/k/bilim) podcastlerini toplu bir şekilde indirmek için kullanabileceğiniz Python console uygulamasıdır.
 
-Dikkat edilmesi gereken hususlar :
+Dikkat edilmesi gereken hususlar:
     
   - Kullanmadan önce sisteminizde `python3` kurulu olmalıdır.
   - Tüm podcastlerin toplam boyutu 9 GB ve her hafta giderek artmaktadır.
