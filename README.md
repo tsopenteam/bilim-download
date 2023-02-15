@@ -7,7 +7,7 @@
 Dikkat edilmesi gereken hususlar:
     
   - Kullanmadan önce sisteminizde `python3` kurulu olmalıdır.
-  - Tüm podcastlerin toplam boyutu 22 GB ve her hafta giderek artmaktadır.
+  - Tüm podcastlerin toplam boyutu 24 GB ve her hafta giderek artmaktadır.
   - İndirilen podcastler proje ile aynı dizin içerisine `podcasts` klasörü altında yer alır.
 
 ### Kullanım
@@ -20,6 +20,6 @@ Dikkat edilmesi gereken hususlar:
 ### Kullanılan Python Kütüphaneleri
 
   - os
-  - requests
+  - requests   (pip install requests)
   - json
-  - urllib.request
+  - urllib.request   (pip install urllib3)
