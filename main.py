@@ -71,10 +71,10 @@ try:
             
             if not os.path.exists(full_directory):
                 print(f'Podcast indiriliyor : {podcast_name}')
-                
-                opener = urllib.request.URLopener()
-                opener.addheader('User-Agent', 'whatever')
-                opener.retrieve(item["podcastLink"], full_directory)
+
+                r = requests.get(item["podcastLink"])
+                with open(full_directory, 'wb') as f:
+                    f.write(r.content)
             else:
                 print(f'Podcast zaten var : {podcast_name}')
         
